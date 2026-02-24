@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background: #111;
+  color: rgb(121, 113, 113);
+  text-align: center;
+  padding: 40px 0;
+}
+
+.nav {
+  background: #222;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav a {
+  color: rgb(121, 113, 113);
+  text-decoration: none;
+  margin: 15px;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #00adb5;
+}
+
+.section {
+  padding: 40px;
+  margin: 20px;
+  background: rgb(37, 34, 34);
+  border-radius: 10px;
+}
+
+.project {
+  margin-top: 20px;
+  padding: 15px;
+  background: #272525;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  background: #111;
+  color: rgb(100, 85, 85);
+  padding: 20px;
+}
+
+.social-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #00adb5;
+}
+
+.social-links a:hover {
+  color: black;
+}
+/* 📱 Mobile Responsive Design */
+@media (max-width: 768px) {
+
+  .header {
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 22px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .project-card {
+    margin-bottom: 15px;
+  }
+
+  .social-icons {
+    gap: 15px;
+  }
+
+  .social-icons a {
+    font-size: 24px;
+  }
+
+}
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
